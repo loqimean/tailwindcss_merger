@@ -17,7 +17,7 @@ Well, just follow this three easy steps:
 │   │   └── tailwindcss_stylesheets
 │   │   │   └── buttons.css
 ```
-
+After this steps you can just run `bin/dev` or `rake tailwindcss:watch`
 ## Installation
 
 Add this line to your application's Gemfile:
