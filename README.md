@@ -15,6 +15,7 @@ Well, just follow this three easy steps:
 ├── app
 │   └── assets
 │   │   └── tailwindcss_stylesheets
+│   │   │   └── buttons.css
 ```
 
 ## Installation
