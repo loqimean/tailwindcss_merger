@@ -47,6 +47,10 @@ Or install it yourself as:
 gem install tailwindcss_merger
 ```
 
+# Warning
+
+Please pay attention, that this gem overwrite your existing application.tailwind.css file and because of it before starting any tailwindcss rake task move styles to separate files, like: typography.css, buttons.css, tables.css and etc.
+
 ## Contributing
 
 For your applying your changes just create pull request with assigning to me.
