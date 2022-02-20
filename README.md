@@ -16,6 +16,9 @@ Well, just follow this three easy steps:
 │   └── assets
 │   │   └── tailwindcss_stylesheets
 │   │   │   └── buttons.css
+│   │   │   └── tables.css
+│   │   │   └── colors.css
+│   │   │   └── typography.css
 ```
 After this steps you can just run `bin/dev` or `rake tailwindcss:watch`
 ## Installation
