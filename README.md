@@ -21,6 +21,9 @@ Well, just follow this three easy steps:
 │   │   │   └── typography.css
 ```
 After this steps you can just run `bin/dev` or `rake tailwindcss:watch`
+
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/49816584/155272801-7b644d22-5909-4bcf-a9fa-a08fcc87b77f.gif)
+
 ## Installation
 
 Add this line to your application's Gemfile:
