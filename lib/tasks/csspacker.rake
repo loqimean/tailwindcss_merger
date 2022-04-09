@@ -1,6 +1,4 @@
-# Loading tailwindcss-rails tasks
-tailwindcss_rails_path = Pathname.new("#{Gem.find_files('tailwindcss-rails.rb').first}").dirname
-load "#{tailwindcss_rails_path}/tasks/build.rake"
+Tailwindcss::Engine.load_tasks
 
 namespace :csspacker do
   desc 'Packs all CSS files from app/assets/tailwindcss_stylesheets into app/assets/application.tailwind.css
