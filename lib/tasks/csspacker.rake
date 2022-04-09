@@ -17,6 +17,8 @@ namespace :csspacker do
 
       files.each do |file_path|
         File.open(file_path, 'r') do |file|
+          main_file.write("/* #{File.basename(file)} */\n")
+
           loop do
             main_file.write(file.readline)
           rescue StandardError
@@ -25,7 +27,9 @@ namespace :csspacker do
           end
         end
       end
-    end
+
+      main_file
+    end.close
   end
 
   desc 'Runs tailwindcss:build on changes in directory app/assets/tailwindcss_stylesheets'
@@ -39,4 +43,5 @@ namespace :csspacker do
 end
 
 Rake::Task['tailwindcss:build'].enhance(['csspacker:build'])
+Rake::Task['tailwindcss:watch'].enhance(['csspacker:build'])
 Rake::Task['tailwindcss:watch'].enhance(['csspacker:watch'])
