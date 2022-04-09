@@ -23,4 +23,5 @@ Gem::Specification.new do |spec|
   spec.add_dependency "listen"
   spec.add_dependency "tailwindcss-rails"
   spec.add_dependency "rake"
+  spec.add_development_dependency "rspec"
 end
