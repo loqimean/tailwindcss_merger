@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    tailwindcss_merger (0.2.0)
+    tailwindcss_merger (0.2.1)
       listen
       rails (>= 6.0.0)
       rake
@@ -119,7 +119,7 @@ GEM
       net-protocol
       timeout
     nio4r (2.5.8)
-    nokogiri (1.13.3-arm64-darwin)
+    nokogiri (1.13.4-arm64-darwin)
       racc (~> 1.4)
     racc (1.6.0)
     rack (2.2.3)

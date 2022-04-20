@@ -41,5 +41,6 @@ namespace :csspacker do
 end
 
 Rake::Task['tailwindcss:build'].enhance(['csspacker:build'])
+Rake::Task['assets:precompile'].enhance(['csspacker:build'])
 Rake::Task['tailwindcss:watch'].enhance(['csspacker:build'])
 Rake::Task['tailwindcss:watch'].enhance(['csspacker:watch'])
