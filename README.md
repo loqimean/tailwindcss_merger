@@ -50,6 +50,9 @@ Or install it yourself as:
 gem install tailwindcss_merger
 ```
 
+# To Do
+- [ ] Fix push to heroku with .gitignore-d file `application.tailwindcss.css`
+
 # Warning
 
 Please pay attention, that this gem overwrites your existing application.tailwind.css file and because of it before starting any tailwindcss rake task move styles to separate files, like: typography.css, buttons.css, tables.css and etc.
